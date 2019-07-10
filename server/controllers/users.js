@@ -51,5 +51,6 @@ module.exports = {
     //secret
     secret: async (req, res, next)=>{
         console.log('Secured');
+        res.send(200);
     }
 }
